@@ -3592,8 +3592,7 @@ Created using IcoMoon - icomoon.io
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); }
 
 .profile-page .title {
-  text-align: center;
-  margin-top: 30px; }
+  text-align: center; }
 
 .profile-page .description,
 .profile-page .category {
@@ -5169,8 +5168,8 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image img {
   position: relative;
   border-radius: 50%;
-  height: 180px;
-  width: 180px;
+  height: 300px;
+  width: 300px;
   padding: 0;
   margin: 0;
   border: 15px solid transparent;
