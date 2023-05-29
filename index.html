@@ -1,321 +1,497 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hi, my name is Mustafa Cagri and I currently am a Computer science student at Bilkent University, part-time computer vision engineer at STM and side-hustling on Alphy"
+    />
+    <meta
+      name="keywords"
+      content=" Mustafa Cagri Durgut, Mustafa Çağrı Durgut, Çağrı Durgut, Cagri Durgut, Mustafa Çağrı, Cagri, mcagridurgut, mcagri, alphy, STM, Bilkent, Bilkent University, Computer Science, Computer Vision, Computer Vision Engineer, Computer Vision Engineer at STM"
+    />
+    <meta name="author" content="Mustafa Çağrı Durgut" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet" />
-  <!-- add css animation to change from easter to noneaster -->
-  <style>
-    .easter {
-      opacity: 0;
-    }
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-    .kenobi {
-      transition: opacity 1s;
-    }
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="android-chrome-512x512.png"
+    />
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- add css animation to change from easter to noneaster -->
+    <style>
+      .easter {
+        opacity: 0;
+      }
 
-    .alphy {
-    background-size: 100% !important;
-    transition: background-size 0.3s ease-out !important;
-  }
-  .alphy:hover {
-    background-size: 120% !important;
-  }
+      .kenobi {
+        transition: opacity 1s;
+      }
 
-  .biyobot {
-    background-size: 100% !important;
-    transition: background-size 0.3s ease-out !important;
-  }
-  .biyobot:hover {
-    background-size: 120% !important;
-  }
+      .alphy {
+        background-size: 100% !important;
+        transition: background-size 0.3s ease-out !important;
+      }
+      .alphy:hover {
+        background-size: 120% !important;
+      }
 
-  </style>
+      .biyobot {
+        background-size: 100% !important;
+        transition: background-size 0.3s ease-out !important;
+      }
+      .biyobot:hover {
+        background-size: 120% !important;
+      }
+    </style>
 
-  <title>Mustafa Çağrı Durgut</title>
-</head>
+    <title>Mustafa Çağrı Durgut</title>
+  </head>
 
-<body>
-  <main class="min-full-screen flex flex-col items-center justify-center" style="font-family: 'Inter', sans-serif">
-    <div class="min-full-screen flex w-full max-w-[1728px] flex-col">
-      <div class="flex min-h-screen w-full flex-1 flex-col items-center">
-        <div class="flex h-full w-full max-w-[428px] flex-1 flex-col p-6 py-12 xl:max-w-[1728px] xl:flex-row xl:p-16">
-          <div class="mb-10 px-4 xl:mb-0 xl:mr-20 xl:flex-1 xl:px-0 lg:w-[400px] xl:max-w-[500px]">
-            <div class="flex flex-col justify-between h-full">
-              <div class="xl:sticky xl:top-16" style="opacity: 1">
-                <div class="w-[120px] xl:w-[184px]">
-                  <div class="rounded-full">
-                    <img src="pp.png" alt="avatar" class="rounded-full shadow-2xl" />
-                    <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div>
+  <body>
+    <main
+      class="min-full-screen flex flex-col items-center justify-center"
+      style="font-family: 'Inter', sans-serif"
+    >
+      <div class="min-full-screen flex w-full max-w-[1728px] flex-col">
+        <div class="flex min-h-screen w-full flex-1 flex-col items-center">
+          <div
+            class="flex h-full w-full max-w-[428px] flex-1 flex-col p-6 py-12 xl:max-w-[1728px] xl:flex-row xl:p-16"
+          >
+            <div
+              class="mb-10 px-4 xl:mb-0 xl:mr-20 xl:flex-1 xl:px-0 lg:w-[400px] xl:max-w-[500px]"
+            >
+              <div class="flex flex-col justify-between h-full">
+                <div class="xl:sticky xl:top-16" style="opacity: 1">
+                  <div class="w-[120px] xl:w-[184px]">
+                    <div class="rounded-full">
+                      <img
+                        src="pp.png"
+                        alt="avatar"
+                        class="rounded-full shadow-2xl"
+                      />
+                      <div
+                        class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"
+                      ></div>
+                    </div>
                   </div>
-                </div>
-                <div class="ml-2 w-full max-w-[min(500px,100%)] mt-8">
-                  <div class="text-[32px] font-bold leading-[120%] xl:text-[44px]">
-                    <div class="rt-editor">Cagri</div>
-                  </div>
-                  <div class="mt-3 text-[#565656] xl:mt-3 xl:text-xl">
-                    <div class="styles_bio__oMe8p">
-                      <div class="">
+                  <div class="ml-2 w-full max-w-[min(500px,100%)] mt-8">
+                    <div
+                      class="text-[32px] font-bold leading-[120%] xl:text-[44px]"
+                    >
+                      <div class="rt-editor">Cagri</div>
+                    </div>
+                    <div class="mt-3 text-[#565656] xl:mt-3 xl:text-xl">
+                      <div class="styles_bio__oMe8p">
                         <div class="">
-                          <p>I connect ChatGPT to copilot 🤖🤝🤖</p>
+                          <div class="">
+                            <p>I connect ChatGPT to copilot 🤖🤝🤖</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-              </div>
-              <div class="w-full font text-lg hidden sm:flex flex justify-between cursor-pointer" onmouseenter="
+                <div
+                  class="w-full font text-lg hidden sm:flex flex justify-between cursor-pointer"
+                  onmouseenter="
                     // find the below item and set it to visible
                     this.querySelector('.kenobi').classList.remove('easter')
-                " onmouseleave="
+                "
+                  onmouseleave="
                     this.querySelector('.kenobi').classList.add('easter')
-                " onclick="window.open('https://www.youtube.com/watch?v=rEq1Z0bjdwc', '_blank')">
-                <div class="w-fit">Hello there 👋</div>
-                <div class="kenobi easter">General Kenobi 🤖</div>
-              </div>
-
-            </div>
-          </div>
-          <div class="relative flex-1 xl:w-[820px] xl:flex-none" data-grid-dropzone="true">
-            <div class="bento-grid">
-              <!-- <div
-                  class="p-4 font-semibold text-lg px-5"
-                  style="font-family: inter"
+                "
+                  onclick="window.open('https://www.youtube.com/watch?v=rEq1Z0bjdwc', '_blank')"
                 >
-                  Get to know me ↓
-                </div> -->
-
-
-              <div class="rounded-2xl mb-10 font-semibold shadow-xl bg-slate-100 p-4">
-                <p>Hi, my name is Mustafa Cagri and I am curently</p>
-                <ol class="p-3">
-                  <li class="p-1">🎒 a Computer science student at <a href="https://w3.bilkent.edu.tr">Bilkent University</a></li>
-                  <li class="p-1">🏢 Part-time computer vision engineer at <a href="https://stm.com.tr">STM</a></li>
-                  <li class="p-1">👨‍💻 Side-hustling on <a href="https://alphy.app">Alphy</a></li>
-                  <li class="p-1">🚀 Excited about LLM's, Ed-Tech and their intersection </a></li>
-
-                </ol>
+                  <div class="w-fit">Hello there 👋</div>
+                  <div class="kenobi easter">General Kenobi 🤖</div>
+                </div>
               </div>
+            </div>
+            <div
+              class="relative flex-1 xl:w-[820px] xl:flex-none"
+              data-grid-dropzone="true"
+            >
+              <div class="bento-grid">
+                <h1 class="font-semibold sm:text-xl p-6">
+                  Hi, my name is Mustafa Cagri and I currently am:
+                </h1>
+                <div
+                  class="rounded-2xl mb-10 font-semibold shadow-xl bg-slate-100 p-4 pt-1"
+                >
+                  <ol class="p-3 pt-1">
+                    <li class="p-1">
+                      🎒 a Computer science student at
+                      <a href="https://w3.bilkent.edu.tr">Bilkent University</a>
+                    </li>
+                    <li class="p-1">
+                      🏢 Part-time computer vision engineer at
+                      <a href="https://stm.com.tr">STM</a>
+                    </li>
+                    <li class="p-1">
+                      👨‍💻 Side-hustling on <a href="https://alphy.app">Alphy</a>
+                    </li>
+                    <li class="p-1">
+                      🚀 Excited about LLM's, Ed-Tech and their intersection
+                    </li>
+                  </ol>
+                </div>
 
-              <div class="rounded-2xl mb-5 p-4 font-semibold flex flex shadow-sm">
-                <div class="sm:text-xl flex flex-col p-3">
-                  <div>🧑‍💻 Developed and 🛳️ Shipped ⬇️</div>
+                <div
+                  class="rounded-2xl mb-5 p-4 font-semibold flex flex shadow-sm"
+                >
+                  <div class="sm:text-xl flex flex-col p-3">
+                    <div>🧑‍💻 Developed and 🛳️ Shipped ⬇️</div>
                   </div>
                 </div>
               </div>
               <div class="flex flex-col xl:flex-row">
                 <div class="w-full max-w-[390px] xl:mr-10 flex flex-col">
                   <a href="https://alphy.app" class="">
-                    <div class="bg-[#F5FBFF] p-5 border h-[390px] border-[#eaeaea] rounded-2xl flex flex-col justify-between shadow-xl mb-10 hover:shadow-2xl">
+                    <div
+                      class="bg-[#F5FBFF] p-5 border h-[390px] border-[#eaeaea] rounded-2xl flex flex-col justify-between shadow-xl mb-10 hover:shadow-2xl"
+                    >
                       <div>
                         <div class="rounded-2xl p-1 border w-fit">
-                          <img src="https://alphy.app/favicon.ico" alt="alphy logo" width="30px" ></div>
-                        <div class="
-                         font-semibold text-[16px]
-                        ">Alphy will be your next-generation speech-to-meaning agent </div>
-                        <div class=" text-[12px] opacity-70
-                        ">alphy.app</div>
+                          <img
+                            src="https://alphy.app/favicon.ico"
+                            alt="alphy logo"
+                            width="30px"
+                          />
+                        </div>
+                        <div class="font-semibold text-[16px]">
+                          Alphy will be your next-generation speech-to-meaning
+                          agent
+                        </div>
+                        <div class="text-[12px] opacity-70">alphy.app</div>
                       </div>
 
-                      <div class=" alphy w-full h-1/2 rounded-2xl border" style="background-image: url('alphy.jpg'); background-position: center center; background-repeat: no-repeat;" ></div>
+                      <div
+                        class="alphy w-full h-1/2 rounded-2xl border"
+                        style="
+                          background-image: url('alphy.jpg');
+                          background-position: center top;
+                          background-repeat: no-repeat;
+                        "
+                      ></div>
                     </div>
                   </a>
-                </div>              
+                </div>
+                <div class="w-full max-w-[390px] flex flex-col">
+                  <a href="https://tutoryum.com" class="">
+                    <div
+                      class="bg-[#F5FBFF] p-5 border h-[390px] border-[#eaeaea] rounded-2xl flex flex-col justify-between shadow-xl mb-10 hover:shadow-2xl"
+                    >
+                      <div>
+                        <div class="rounded-2xl p-1 border w-fit">
+                          <img
+                            src="https://www.tutoryum.com/logo.svg"
+                            alt="tutoryum logo"
+                            width="30px"
+                          />
+                        </div>
+                        <div class="font-semibold text-[16px]">
+                          Tutoryum is here to revolutionize the way you learn
+                        </div>
+                        <div class="text-[12px] opacity-70">tutoryum.com</div>
+                      </div>
+                      <div
+                        class="biyobot w-full h-1/2 rounded-2xl border"
+                        style="
+                          background-image: url('tutoryum.jpg');
+                          background-position: center top;
+                          background-repeat: no-repeat;
+                        "
+                      ></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col xl:flex-row">
                 <div class="w-full max-w-[390px] flex flex-col">
                   <a href="https://biyobot.netlify.app" class="">
-                    <div class="bg-[#F5FBFF] p-5 border h-[390px] border-[#eaeaea] rounded-2xl flex flex-col justify-between shadow-xl mb-10 hover:shadow-2xl">
+                    <div
+                      class="bg-[#F5FBFF] p-5 border h-[390px] border-[#eaeaea] rounded-2xl flex flex-col justify-between shadow-xl mb-10 hover:shadow-2xl"
+                    >
                       <div>
                         <div class="rounded-2xl p-1 border w-fit">
-                          <img src="https://biyobot.netlify.app/favicon.ico" alt="biybot logo" width="30px" ></div>
-                        <div class="
-                         font-semibold text-[16px]
-                        ">Biyobot allows you to semantically search the 9th grade biology textbook </div>
-                        <div class=" text-[12px] opacity-70
-                        ">biyobot.netlify.app</div>
+                          <img
+                            src="https://biyobot.netlify.app/favicon.ico"
+                            alt="biybot logo"
+                            width="30px"
+                          />
+                        </div>
+                        <div class="font-semibold text-[16px]">
+                          Biyobot allows you to semantically search the 9th
+                          grade biology textbook
+                        </div>
+                        <div class="text-[12px] opacity-70">
+                          biyobot.netlify.app
+                        </div>
                       </div>
-                      <div class=" biyobot w-full h-1/2 rounded-2xl border" style="background-image: url('biyobot.jpg'); background-position: center center; background-repeat: no-repeat;" ></div>
+                      <div
+                        class="biyobot w-full h-1/2 rounded-2xl border"
+                        style="
+                          background-image: url('biyobot.jpg');
+                          background-position: center top;
+                          background-repeat: no-repeat;
+                        "
+                      ></div>
                     </div>
                   </a>
-                </div> 
-              </div>
-              <div class="rounded-2xl mb-5 p-4 font-semibold flex flex shadow-sm">
-                <div class=" sm:text-xl flex flex-col p-3">
-                  <div>Find me out on the internet 🌐</div>
-                  </div>
                 </div>
-            <div class="flex flex-col xl:flex-row">
-              <div class="w-full max-w-[390px]  xl:mr-10 flex flex-col">
-                <div
-                  class="bg-[#F5FBFF] border border-[#eaeaea] rounded-2xl h-[250px]  shadow-xl mb-10 hover:shadow-2xl transition-shadow duration-300">
-                  <a href="https://twitter.com/mcagridurgut" class="h-full flex flex-col justify-between">
-                    <div class="h-[55px] bg-gray-500 rounded-t-2xl p-4">
-                      <div class="flex justify-between">
-                        <div class="flex flex-col">
-                          <img src="https://pbs.twimg.com/profile_images/1164310062237659136/ZalHIvX5_400x400.jpg"
-                            alt="twitter" class="w-[50px] h-[50px] rounded-full" />
+              </div>
+              <div
+                class="rounded-2xl mb-5 p-4 font-semibold flex flex shadow-sm"
+              >
+                <div class="sm:text-xl flex flex-col p-3">
+                  <div>Find me out on the internet 🌐</div>
+                </div>
+              </div>
+              <div class="flex flex-col xl:flex-row">
+                <div class="w-full max-w-[390px] xl:mr-10 flex flex-col">
+                  <div
+                    class="bg-[#F5FBFF] border border-[#eaeaea] rounded-2xl h-[250px] shadow-xl mb-10 hover:shadow-2xl transition-shadow duration-300"
+                  >
+                    <a
+                      href="https://twitter.com/mcagridurgut"
+                      class="h-full flex flex-col justify-between"
+                    >
+                      <div class="h-[55px] bg-gray-500 rounded-t-2xl p-4">
+                        <div class="flex justify-between">
+                          <div class="flex flex-col">
+                            <img
+                              src="https://pbs.twimg.com/profile_images/1661426560795045890/j0dFVF0x_400x400.jpg"
+                              alt="twitter"
+                              class="w-[50px] h-[50px] rounded-full"
+                            />
 
-                          <div class="font-bold">Çağrı Durgut</div>
-                          <div class="text-xs opacity-70">
-                            @mcagridurgut
+                            <div class="font-bold">Çağrı Durgut</div>
+                            <div class="text-xs opacity-70">@mcagridurgut</div>
+                          </div>
+                          <div class="flex items-end">
+                            <button
+                              class="px-[21px] py-[7px] shadow-sm rounded-2xl text-xs font-bold text-white bg-[#55ACEE] hover:bg-[#0A66C2] transition-colors duration-300"
+                            >
+                              Follow
+                            </button>
                           </div>
                         </div>
-                        <div class="flex items-end">
-                          <button
-                            class="px-[21px] py-[7px] shadow-sm rounded-2xl text-xs font-bold text-white bg-[#55ACEE] hover:bg-[#0A66C2] transition-colors duration-300">
-                            Follow
-                          </button>
+                        <div class="mt-4 text-black text-sm">
+                          Everyone's talking about #ChatGPT. But 90% of you are
+                          missing out on the AI revolution. Here are the top AI
+                          tools you NEED to know about: 👇
+                        </div>
+                        <div class="text-blue-500 text-sm mt-2">
+                          #DOGE #HODL 🚀🚀🚀
                         </div>
                       </div>
-                      <div class="mt-4 text-black text-sm
-                          ">Everyone's talking about #ChatGPT. But 90% of you are missing out on the AI revolution.
-                        Here are the top AI tools you NEED to know about: 👇
-                      </div>
-                      <div class="text-blue-500 text-sm mt-2">#DOGE #HODL 🚀🚀🚀</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="flex w-full justify-between">
-                  <div
-                    class="bg-[#5F5EC0] bg-opacity-10 p-4 border border-[#eaeaea] rounded-2xl w-1/2 w-[150px] sm:w-[175px] h-[150px] sm:h-[175px] shadow-xl hover:shadow-2xl transition-shadow duration-300" "
-                      >
-                        <div
-                          class=" w-full h-full flex flex-col justify-center items-center">
-                    <a href="https://instagram.com/mcagridurgut">
-                      <img src="instagram.png" alt="Instagram" />
-
                     </a>
                   </div>
+                  <div class="flex w-full justify-between">
+                    <div class="bg-[#5F5EC0] bg-opacity-10 p-4 border
+                    border-[#eaeaea] rounded-2xl w-1/2 w-[150px] sm:w-[175px]
+                    h-[150px] sm:h-[175px] shadow-xl hover:shadow-2xl
+                    transition-shadow duration-300" " >
+                    <div
+                      class="w-full h-full flex flex-col justify-center items-center"
+                    >
+                      <a href="https://instagram.com/mcagridurgut">
+                        <img src="instagram.png" alt="Instagram" />
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="bg-[#f8f8f8] p-4 border border-[#eaeaea] rounded-2xl w-1/2 w-[150px] sm:w-[175px] h-[150px] sm:h-[175px] shadow-xl hover:shadow-2xl transition-shadow duration-300 flex justify-center items-center text-7xl"
+                  >
+                    <a href="https://nohello.net">👋</a>
+                  </div>
                 </div>
+              </div>
+
+              <div class="flex items-start">
                 <div
-                  class="bg-[#f8f8f8] p-4 border border-[#eaeaea] rounded-2xl w-1/2 w-[150px] sm:w-[175px] h-[150px] sm:h-[175px] shadow-xl hover:shadow-2xl transition-shadow duration-300 flex justify-center items-center text-7xl">
-                  <a href="https://nohello.net">👋</a>
+                  class="w-full h-full mb-10 xl:mb-0 p-6 mt-10 xl:mt-0 rounded-2xl bg-[#9be9a8] bg-opacity-10 xl:w-[390px] border border-[#eaeaea] shadow-xl hover:shadow-2xl transition-shadow duration-300 hover:cursor-pointer"
+                >
+                  <a
+                    href="https://github.com/mcagridurgut"
+                    class="h-full flex flex-col justify-between"
+                  >
+                    <div class="flex justify-between">
+                      <div class="flex flex-col">
+                        <!-- github image -->
+                        <img
+                          src="github-mark.svg"
+                          alt="github"
+                          class="w-[40px] h-[40px] ml-4"
+                        />
+
+                        <div class="p-3 text-sm">
+                          Check out my latest spaghetti exhibition
+                        </div>
+                      </div>
+                      <div>
+                        <button
+                          class="px-[21px] py-[7px] shadow-sm rounded-lg text-xs font-bold text-[#565656] bg-[#F7F9FA] border border-[#E7E7E7] hover:bg-[#f2f2f2] transition-colors duration-300"
+                        >
+                          Follow
+                        </button>
+                      </div>
+                    </div>
+                    <!-- import github.svg -->
+                    <img src="github.svg" alt="github grid" />
+                    <div class="text-xs mt-4 text-black/60">
+                      207 contributions last year
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="flex items-start">
-              <div
-                class="w-full h-full mb-10 xl:mb-0 p-6 mt-10 xl:mt-0 rounded-2xl bg-[#9be9a8] bg-opacity-10 xl:w-[390px] border border-[#eaeaea] shadow-xl hover:shadow-2xl transition-shadow duration-300 hover:cursor-pointer">
-                <a href="https://github.com/mcagridurgut" class="h-full flex flex-col justify-between ">
+            <div
+              class="rounded-2xl p-4 mt-10 font-semibold flex flex shadow-sm"
+            >
+              <div class="text-8xl opacity-70 font-serif">“</div>
+              <div class="pt-10 sm:text-xl flex flex-col p-3">
+                <div>
+                  I did it for me. I liked it. I was good at it. And I was
+                  really, I was alive!
+                </div>
+                <div
+                  class="w-full flex justify-end opacity-70 text-xs pt-5 sm:pr-20"
+                >
+                  - me, building this site
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="w-full sm:w-2/3 mx-auto bg-[#0A66C2] bg-opacity-10 rounded-lg shadow-xl border border-[#eaeaea] h-[250px] my-10 hover:shadow-2xl transition-shadow duration-300"
+            >
+              <a
+                href="https://linkedin.com/in/mcagri"
+                class="h-full flex flex-col justify-between"
+              >
+                <div
+                  class="h-[55px] rounded-t-2xl p-4"
+                  style="
+                    background-image: url('linkedin-bg.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                  "
+                >
                   <div class="flex justify-between">
                     <div class="flex flex-col">
                       <!-- github image -->
-                      <img src="github-mark.svg" alt="github" class="w-[40px] h-[40px] ml-4" />
+                      <div
+                        class="w-[55px] h-[55px] flex justify-center items-center bg-white rounded-full"
+                      >
+                        <img
+                          src="linkedin-pp.jpg"
+                          alt="twitter"
+                          class="w-[50px] h-[50px] rounded-full"
+                        />
+                      </div>
 
-                      <div class="p-3 text-sm">
-                        Check out my latest spaghetti exhibition
+                      <div class="font-bold">Mustafa Çağrı Durgut</div>
+                      <div class="text-sm text-black/90">
+                        Bilkent University CS
+                      </div>
+                      <div class="text-xs text-black/80 mt-1">
+                        Ankara, Turkey
                       </div>
                     </div>
-                    <div>
+                    <div class="flex items-end">
                       <button
-                        class="px-[21px] py-[7px] shadow-sm rounded-lg text-xs font-bold text-[#565656] bg-[#F7F9FA] border border-[#E7E7E7] hover:bg-[#f2f2f2] transition-colors duration-300">
-                        Follow
+                        class="px-[11px] py-[7px] flex shadow-sm rounded-2xl text-xs font-bold text-white bg-[#0A66C2] hover:bg-[#55ACEE] transition-colors duration-300"
+                      >
+                        <svg
+                          class="mr-1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 16 16"
+                          data-supported-dps="16x16"
+                          fill="currentColor"
+                          class="mercado-match"
+                          width="16"
+                          height="16"
+                          focusable="false"
+                        >
+                          <path
+                            d="M9 4a3 3 0 11-3-3 3 3 0 013 3zM6.75 8h-1.5A2.25 2.25 0 003 10.25V15h6v-4.75A2.25 2.25 0 006.75 8zM13 8V6h-1v2h-2v1h2v2h1V9h2V8z"
+                          ></path>
+                        </svg>
+                        Connect
                       </button>
                     </div>
                   </div>
-                  <!-- import github.svg -->
-                  <img src="github.svg" alt="github grid" />
-                  <div class="text-xs mt-4 text-black/60">
-                    151 contributions last year
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="rounded-2xl p-4 mt-10 font-semibold flex flex shadow-sm">
-            <div class="text-8xl opacity-70 font-serif">“</div>
-            <div class="pt-10 sm:text-xl flex flex-col p-3">
-              <div>I did it for me. I liked it. I was good at it. And I was really, I was alive!
-              </div>
-              <div class="w-full flex justify-end opacity-70 text-xs pt-5 sm:pr-20">
-                - me, building this site
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="w-full sm:w-2/3 mx-auto bg-[#0A66C2] bg-opacity-10 rounded-lg shadow-xl border border-[#eaeaea] h-[250px] my-10 hover:shadow-2xl transition-shadow duration-300 ">
-            <a href="https://linkedin.com/in/mcagri" class="h-full flex flex-col justify-between">
-              <div class="h-[55px] rounded-t-2xl p-4" style="
-                background-image: url('linkedin-bg.jpg'); 
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-
-                ">
-                <div class="flex justify-between">
-                  <div class="flex flex-col">
-                    <!-- github image -->
-                    <div class="w-[55px] h-[55px] flex justify-center items-center bg-white rounded-full">
-                      <img src="linkedin-pp.jpg" alt="twitter" class="w-[50px] h-[50px] rounded-full" />
-                    </div>
-
-                    <div class="font-bold">Mustafa Çağrı Durgut</div>
-                    <div class="text-sm text-black/90">
-                      Bilkent University CS
-                    </div>
-                    <div class="text-xs text-black/80 mt-1">
-                      Ankara, Turkey
-                    </div>
-                  </div>
-                  <div class="flex items-end">
-                    <button
-                      class="px-[11px] py-[7px] flex shadow-sm rounded-2xl text-xs font-bold text-white bg-[#0A66C2] hover:bg-[#55ACEE] transition-colors duration-300">
-                      <svg class="mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
-                        data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16"
-                        focusable="false">
-                        <path
-                          d="M9 4a3 3 0 11-3-3 3 3 0 013 3zM6.75 8h-1.5A2.25 2.25 0 003 10.25V15h6v-4.75A2.25 2.25 0 006.75 8zM13 8V6h-1v2h-2v1h2v2h1V9h2V8z">
-                        </path>
-                      </svg>
-                      Connect
-                    </button>
+                  <div class="mt-4 text-black">
+                    I am thrilled to announce that I am a member of the world's
+                    weirdest social media platform! 🥳🥳🥂
                   </div>
                 </div>
-                <div class="mt-4 text-black">
-                  I am thrilled to announce that I am a member of the world's weirdest social media platform! 🥳🥳🥂
-                </div>
+              </a>
+            </div>
+
+            <!-- Calendly inline widget begin -->
+            <div class="w-full">
+              <div
+                class="calendly-inline-widget"
+                data-url="https://calendly.com/mcagridurgut/15min?hide_gdpr_banner=1"
+                style="min-width: 320px; height: 1015px; overflow-y: hidden"
+              ></div>
+              <script
+                type="text/javascript"
+                src="https://assets.calendly.com/assets/external/widget.js"
+                async
+              ></script>
+            </div>
+            <!-- Calendly inline widget end -->
+
+            <div class="w-full p-6">
+              <!-- hey italik intext -->
+              This page is highly <i>influenced</i> by
+              <a href="https://bento.me" class="text-[#0A66C2] hover:underline"
+                >Bento.me</a
+              >
+              and their great design.
+              <div class="text-sm text-black/70 mt-3 w-full text-end">
+                2023 | Mustafa Çağrı Durgut
               </div>
-            </a>
-          </div>
-
-          <!-- Calendly inline widget begin -->
-          <div class="w-full">
-            <div class="calendly-inline-widget" data-url="https://calendly.com/mcagridurgut/15min?hide_gdpr_banner=1"
-              style="min-width: 320px; height: 1015px; overflow-y: hidden"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-          </div>
-          <!-- Calendly inline widget end -->
-
-
-          <div class="w-full p-6">
-            <!-- hey italik intext -->
-            This page is highly <i>influenced</i> by <a href="https://bento.me"
-              class="text-[#0A66C2] hover:underline">Bento.me</a> and their great design.
-            <div class="text-sm text-black/70 mt-3 w-full text-end">
-              2023 | Mustafa Çağrı Durgut
             </div>
           </div>
-
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
